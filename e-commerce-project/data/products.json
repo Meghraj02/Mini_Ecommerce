@@ -1,0 +1,299 @@
+{
+  "products": [
+    {
+      "id": "ELEC001",
+      "category": "electronics",
+      "productName": "Ultra HD 4K Smart TV (55 inch)",
+      "description": "Vivid color display with smart streaming capabilities and voice control integration.",
+      "price": "699.99",
+      "image": "images/products/Ultra HD 4K Smart TV (55 inch).jpg"
+    },
+    {
+      "id": "ELEC002",
+      "category": "electronics",
+      "productName": "Wireless Mechanical Keyboard",
+      "description": "Tactile blue switches, low-latency connectivity, and customizable RGB backlight.",
+      "price": "95.50",
+      "image": "images/products/Wireless Mechanical Keyboard.jpg"
+    },
+    {
+      "id": "ELEC003",
+      "category": "electronics",
+      "productName": "Noise-Cancelling Over-Ear Headphones",
+      "description": "Premium sound quality with 30-hour battery life and superior noise isolation.",
+      "price": "179.00",
+      "image": "images/products/Noise-Cancelling Over-Ear Headphones.jpg"
+    },
+    {
+      "id": "ELEC004",
+      "category": "electronics",
+      "productName": "Portable Bluetooth Speaker (Waterproof)",
+      "description": "Compact speaker with powerful bass and IPX7 waterproof rating.",
+      "price": "64.99",
+      "image": "images/products/Portable Bluetooth Speaker (Waterproof).jpg"
+    },
+    {
+      "id": "ELEC005",
+      "category": "electronics",
+      "productName": "1TB External Solid State Drive (SSD)",
+      "description": "Fast data transfer speeds, shock-resistant housing, perfect for backups.",
+      "price": "115.75",
+      "image": "images/products/1TB External Solid State Drive (SSD).jpg"
+    },
+    {
+      "id": "FASH001",
+      "category": "apparel",
+      "productName": "Men's Classic Denim Jacket",
+      "description": "Timeless style, medium wash, non-stretch denim, perfect for layering.",
+      "price": "85.00",
+      "image": "images/products/Men's Classic Denim Jacket.webp"
+    },
+    {
+      "id": "FASH002",
+      "category": "apparel",
+      "productName": "Boys' Durable Cargo Pants",
+      "description": "Comfortable and tough cargo pants with multiple pockets, ideal for active kids.",
+      "price": "29.99",
+      "image": "images/products/Boys' Durable Cargo Pants.jpg"
+    },
+    {
+      "id": "FASH003",
+      "category": "apparel",
+      "productName": "Silk Paisley Scarf",
+      "description": "Luxurious 100% silk twill with an intricate paisley print.",
+      "price": "28.99",
+      "image": "images/products/Silk Paisley Scarf.jpg"
+    },
+    {
+      "id": "FASH004",
+      "category": "apparel",
+      "productName": "Leather Bifold Wallet",
+      "description": "Genuine leather wallet with eight card slots and ID window.",
+      "price": "49.99",
+      "image": "images/products/Leather Bifold Wallet.jpg"
+    },
+    {
+      "id": "FASH005",
+      "category": "apparel",
+      "productName": "Unisex Cotton Hoodie (Charcoal Gray)",
+      "description": "Heavyweight French terry cotton, relaxed fit, drawstring hood.",
+      "price": "55.00",
+      "image": "images/products/Unisex Cotton Hoodie (Charcoal Gray).jpg"
+    },
+    {
+      "id": "BEAU001",
+      "category": "beauty",
+      "productName": "Hydrating Hyaluronic Acid Serum",
+      "description": "Intensely moisturizing serum that visibly plumps and smooths skin.",
+      "price": "24.50",
+      "image": "images/products/Hydrating Hyaluronic Acid Serum.jpg"
+    },
+    {
+      "id": "BEAU002",
+      "category": "beauty",
+      "productName": "Natural Charcoal Toothpaste",
+      "description": "Fluoride-free formula naturally whitens teeth and freshens breath.",
+      "price": "8.99",
+      "image": "images/products/Natural Charcoal Toothpaste.jpg"
+    },
+    {
+      "id": "BEAU003",
+      "category": "beauty",
+      "productName": "Organic Coconut Oil Body Lotion",
+      "description": "Deeply nourishing lotion for dry skin, enriched with vitamin E and coconut oil.",
+      "price": "15.00",
+      "image": "images/products/Organic Coconut Oil Body Lotion.jpg"
+    },
+    {
+      "id": "BEAU004",
+      "category": "beauty",
+      "productName": "Electric Sonic Toothbrush",
+      "description": "Five cleaning modes and pressure sensor for a superior clean.",
+      "price": "49.99",
+      "image": "images/products/Electric Sonic Toothbrush.jpg"
+    },
+    {
+      "id": "BEAU005",
+      "category": "beauty",
+      "productName": "Tea Tree Oil Shampoo (Sulfate-Free)",
+      "description": "Clarifying shampoo that helps soothe the scalp and remove buildup.",
+      "price": "12.75",
+      "image": "images/products/Tea Tree Oil Shampoo (Sulfate-Free).jpg"
+    },
+    {
+      "id": "HOME001",
+      "category": "home",
+      "productName": "Set of 4 Linen Kitchen Towels",
+      "description": "Highly absorbent, quick-drying linen towels in muted earth tones.",
+      "price": "22.00",
+      "image": "images/products/Set of 4 Linen Kitchen Towels.jpg"
+    },
+    {
+      "id": "HOME002",
+      "category": "home",
+      "productName": "Bamboo Adjustable Laptop Stand",
+      "description": "Ergonomic, cooling stand made from sustainably sourced bamboo.",
+      "price": "45.99",
+      "image": "images/products/Bamboo Adjustable Laptop Stand.jpg"
+    },
+    {
+      "id": "HOME003",
+      "category": "home",
+      "productName": "Geometric Pattern Throw Blanket",
+      "description": "Soft knitted throw with a contemporary geometric pattern.",
+      "price": "38.50",
+      "image": "images/products/Geometric Pattern Throw Blanket.jpg"
+    },
+    {
+      "id": "HOME004",
+      "category": "home",
+      "productName": "Cast Iron Skillet (10 inch)",
+      "description": "Pre-seasoned, durable skillet for high heat searing and baking.",
+      "price": "29.99",
+      "image": "images/products/Cast Iron Skillet (10 inch).jpg"
+    },
+    {
+      "id": "HOME005",
+      "category": "home",
+      "productName": "Scented Soy Wax Candle (Sandalwood)",
+      "description": "100% natural soy wax with a rich, calming sandalwood aroma.",
+      "price": "19.50",
+      "image": "images/products/Scented Soy Wax Candle (Sandalwood).jpg"
+    },
+    {
+      "id": "FOOD001",
+      "category": "food",
+      "productName": "Gourmet Dark Roast Coffee Pods (24 count)",
+      "description": "Intense, smoky flavor from 100% Arabica beans, compatible with single-serve machines.",
+      "price": "15.99",
+      "image": "images/products/Gourmet Dark Roast Coffee Pods (24 count).jpg"
+    },
+    {
+      "id": "FOOD002",
+      "category": "food",
+      "productName": "Organic Honey (Local Wildflower)",
+      "description": "Raw, unfiltered local honey, rich in natural pollen and flavor.",
+      "price": "12.50",
+      "image": "images/products/Organic Honey (Local Wildflower).jpg"
+    },
+    {
+      "id": "FOOD003",
+      "category": "food",
+      "productName": "Artisan Sourdough Bread Mix",
+      "description": "Easy-to-use mix for baking authentic, crusty sourdough at home.",
+      "price": "8.75",
+      "image": "images/products/Artisan Sourdough Bread Mix.jpg"
+    },
+    {
+      "id": "FOOD004",
+      "category": "food",
+      "productName": "Extra Virgin Olive Oil (500ml)",
+      "description": "Cold-pressed, first harvest oil with low acidity and robust flavor.",
+      "price": "24.99",
+      "image": "images/products/Extra Virgin Olive Oil (500ml).jpg"
+    },
+    {
+      "id": "FOOD005",
+      "category": "food",
+      "productName": "Spicy Chili Sauce (Hot)",
+      "description": "Fermented chili mash with garlic and vinegar for a deep heat.",
+      "price": "9.00",
+      "image": "images/products/Spicy Chili Sauce (Hot).jpg"
+    },
+    {
+      "id": "MEDI001",
+      "category": "media",
+      "productName": "The Secret History (Hardcover Book)",
+      "description": "A classic psychological mystery novel by Donna Tartt.",
+      "price": "18.99",
+      "image": "images/products/The Secret History (Hardcover Book).jpg"
+    },
+    {
+      "id": "MEDI002",
+      "category": "media",
+      "productName": "Classic Rock Vinyl Record Album",
+      "description": "Remastered 180g vinyl of a seminal 1970s rock band album.",
+      "price": "27.50",
+      "image": "images/products/Classic Rock Vinyl Record Album.jpg"
+    },
+    {
+      "id": "MEDI003",
+      "category": "media",
+      "productName": "Best of 2024 Pop Music CD",
+      "description": "Compilation CD featuring the year's top chart-topping hits.",
+      "price": "14.00",
+      "image": "images/products/Best of 2024 Pop Music CD.jpg"
+    },
+    {
+      "id": "MEDI004",
+      "category": "media",
+      "productName": "Digital Subscription (1 Year - Magazine)",
+      "description": "12-month digital access to a leading technology magazine.",
+      "price": "39.99",
+      "image": "images/products/Digital Subscription (1 Year - Magazine).jpg"
+    },
+    {
+      "id": "MEDI005",
+      "category": "media",
+      "productName": "Action Movie Collection (4K Blu-ray)",
+      "description": "Box set of five critically acclaimed action films in stunning 4K resolution.",
+      "price": "45.00",
+      "image": "images/products/Action Movie Collection (4K Blu-ray).jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "9e02",
+      "emailid": "manger@gmail.com",
+      "password": "12345",
+      "name": "Meghraj Pedsangi",
+      "address": "mumbai",
+      "mobileno": "7866473651",
+      "role": "Role_Admin"
+    },
+    {
+      "id": "7021",
+      "emailid": "yash@gmail.com",
+      "password": "1234",
+      "name": "yash",
+      "address": "pune",
+      "mobileno": "1236758595",
+      "role": "Role_User"
+    },
+    {
+      "id": "2cfc",
+      "emailid": "meghrajpedsangi2002@gmail.com",
+      "password": "123455",
+      "name": "Meghraj Pedsangi",
+      "address": "Moreshwar Krupa Bldg no 8 3rd floor veer savarkar",
+      "mobileno": "5463782920",
+      "role": "Role_User"
+    },
+    {
+      "id": "8c58",
+      "emailid": "Meg@gmail.com",
+      "password": "1234567",
+      "name": "meghraj",
+      "address": "city",
+      "mobileno": "0123456789",
+      "role": "Role_User"
+    },
+    {
+      "id": "0173",
+      "name": "Me",
+      "email": "Meg@gmail.com",
+      "password": "12345",
+      "phoneNumber": "0123456789",
+      "role": "Role_User"
+    },
+    {
+      "id": "ad04",
+      "name": "alok",
+      "emailid": "ritch@gmail.com",
+      "password": "ndqoqd",
+      "address": "city",
+      "mobileno": "8433517251",
+      "role": "Role_User"
+    }
+  ]
+}
