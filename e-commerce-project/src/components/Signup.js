@@ -19,11 +19,13 @@ export default function SignupForm() {
 
     axios
       .post("http://localhost:3006/users", data)
-      .then((resp) => {
-        setServerMessage("Signup successful!");
-        setMessageType("success");
-        reset();
-      })
+     
+      .then(resp => {
+  console.log(resp);
+  alert('Signup success!');
+  reset(); 
+})
+
       .catch((err) => {
         setServerMessage("Signup failed. Please try again.");
         setMessageType("error");

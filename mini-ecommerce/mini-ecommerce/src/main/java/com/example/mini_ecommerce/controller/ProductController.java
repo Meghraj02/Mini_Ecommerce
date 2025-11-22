@@ -3,6 +3,8 @@ package com.example.mini_ecommerce.controller;
 import com.example.mini_ecommerce.model.Product;
 import com.example.mini_ecommerce.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -10,34 +12,46 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/products")
 @CrossOrigin("*")
-//@CrossOrigin(origins = "http://localhost:3000")
 public class ProductController {
 
     @Autowired
     private ProductService productService;
 
+
     @GetMapping
-    public List<Product> getAllProducts() {
-        return productService.getAllProducts();
+    public ResponseEntity<List<Product>> getAllProducts() {
+        List<Product> products = productService.getAllProducts();
+        if (products.isEmpty()) {
+            return ResponseEntity.noContent().build(); // 204 No Content
+        }
+        return ResponseEntity.ok(products); // 200 OK
     }
+
 
     @GetMapping("/{id}")
-    public Product getProduct(@PathVariable String id) {
-        return productService.getProductById(id);
+    public ResponseEntity<Product> getProduct(@PathVariable String id) {
+        Product product = productService.getProductById(id);
+        if (product == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(product);
     }
+
 
     @PostMapping
-    public Product createProduct(@RequestBody Product product) {
-        return productService.createProduct(product);
+    public ResponseEntity<Product> createProduct(@RequestBody Product product) {
+        Product createdProduct = productService.createProduct(product);
+        return new ResponseEntity<>(createdProduct, HttpStatus.CREATED);
     }
+
 
     @PutMapping("/{id}")
-    public Product updateProduct(@PathVariable String id, @RequestBody Product product) {
-        return productService.updateProduct(id, product);
-    }
-
-    @DeleteMapping("/{id}")
-    public void deleteProduct(@PathVariable String id) {
-        productService.deleteProduct(id);
+    public ResponseEntity<Product> updateProduct(@PathVariable String id, @RequestBody Product product) {
+        Product updatedProduct = productService.updateProduct(id, product);
+        if (updatedProduct == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(updatedProduct);
     }
 }
+

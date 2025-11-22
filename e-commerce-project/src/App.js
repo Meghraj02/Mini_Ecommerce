@@ -49,7 +49,7 @@ export default function App() {
   const removeFromCart = (id) => setCart(prev => prev.filter(c => c.id !== id));
   const clearCart = () => setCart([]);
 
-  // ✅ Totals calculation
+  
   const totals = useMemo(() => {
     const totalItems = cart.reduce((s, it) => s + it.qty, 0);
     const uniqueItems = cart.length;
