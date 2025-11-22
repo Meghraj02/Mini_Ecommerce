@@ -6,7 +6,7 @@ import Home from './Home';
 import Login from './Login';
 import Signup from './Signup';
 import UserHome from "./UserHome";
-import AdminHome from "./AdminHome";
+
 import { DataContext } from "../App";
 import CheckoutPage from "./CheckoutPage"; 
 //import { useNavigate } from "react-router-dom";
@@ -54,11 +54,6 @@ const ProtectedRoute = () => {
     padding: panelOpen ? "1rem" : "0",
   };
 
-  
-   
-  
-
-  // Default split layout
   return (
     <div style={{ display: "flex", height: "100vh", width: "100%" }}>
       <div style={cardListStyle}>
@@ -76,7 +71,7 @@ const ProtectedRoute = () => {
   {/* Protected Routes */}
   <Route element={<ProtectedRoute />}>
             <Route path="/userhome" element={<UserHome products={products} />} />
-            <Route path="/adminhome" element={<AdminHome products={products} />} />
+            {/* <Route path="/adminhome" element={<AdminHome products={products} />} /> */}
           </Route>
 </Routes>
 

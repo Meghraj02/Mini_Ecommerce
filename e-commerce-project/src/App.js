@@ -1,5 +1,4 @@
 
-//Hello//Rich
 import React, { useState, useEffect ,createContext,useContext,useMemo} from 'react';
 import './App.css';
 import Header from './components/Header';
@@ -7,7 +6,6 @@ import MainSection from './components/MainSection';
 import Footer from './components/Footer';
 
 import axios from 'axios';
-
 
 // import{BrowserRouter, Link}from 'react-router-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
